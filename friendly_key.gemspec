@@ -7,8 +7,9 @@ Gem::Specification.new do |spec|
   spec.version       = FriendlyKey::VERSION
   spec.authors       = ["tyamagu2"]
   spec.email         = ["tyamagu2@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Human friendly random key generator}
+  spec.description   = %q{FriendlyKey lets you generate human friendly random strings. It generates random alphanumeric strings without letters and digits that are hard to distinguish from each other, such as I, l and 1.
+You can use FriendlyKey when you need random strings that you don't want your users to copy and paste but rather enter by themselves, like  product keys and random passwords.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
