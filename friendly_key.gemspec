@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Human friendly random key generator}
   spec.description   = %q{FriendlyKey lets you generate human friendly random strings. It generates random alphanumeric strings without letters and digits that are hard to distinguish from each other, such as I, l and 1.
 You can use FriendlyKey when you need random strings that you don't want your users to copy and paste but rather enter by themselves, like  product keys and random passwords.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/tyamagu2/friendly_key"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
